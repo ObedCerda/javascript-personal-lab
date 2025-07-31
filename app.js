@@ -13,12 +13,20 @@ if (numeroUsuario == numeroSecreto) // Compara el numero ingresado por el usuari
     console.log(`Felicidades, has acertado, tu numero es: ${numeroUsuario}`);
 }
 
-else 
+else
 {
+    if(numeroUsuario < numeroSecreto)
+    {
+        alert("el numero secreto es mayor al numero ingresado");
+    }
+    else
+    {
+        alert("el numero secreto es menor al numero ingresado");
+    }
     //Con concatenacion
-    console.log("Con Concatenación \nLo siento, el numero secreto era: " + numeroSecreto);
+    //console.log("Con Concatenación \nLo siento, el numero secreto era: " + numeroSecreto);
     //Con template strings
-    console.log(`Con Template String \nLo siento, el numero secreto era: ${numeroSecreto}`);
+    //console.log(`Con Template String \nLo siento, el numero secreto era: ${numeroSecreto}`);
 }
 
  

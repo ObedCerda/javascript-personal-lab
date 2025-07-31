@@ -94,7 +94,17 @@ else
 04
 Crea un mensaje que informe al usuario sobre el saldo de su cuenta, 
 utilizando un template string para incluir el valor del saldo.
-*/
+
 
 let saldoCuenta = 3000;
 alert(`Èl saldo de su cuenta es: $${saldoCuenta}`);
+
+*/
+
+/*
+05
+Pide al usuario que ingrese su nombre mediante un prompt. 
+Luego, muestra una alerta de bienvenida usando ese nombre.
+*/
+ let nombreUsuario =prompt("Ingrese su nombre");
+ alert(`Bienvenido! ${nombreUsuario}`);
