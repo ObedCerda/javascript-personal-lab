@@ -51,7 +51,7 @@ else
 /*Verifica si un número ingresado por el usuario es positivo o negativo. 
 Muestra una alerta informativa.
 
-*/
+
 
 numIngresado = prompt("ingrese un numero positivo o negativo");
 if (numIngresado >= 0)
@@ -67,8 +67,24 @@ else
     alert("Error, ingrese un numero valido");
 }
 
+*/
 
 
-
-
+/*03
+Crea un sistema de puntuación para un juego. Si la puntuación es mayor o igual a 100, muestra "¡Felicidades, has ganado!". 
+En caso contrario, muestra "Intentalo nuevamente para ganar.".
+*/
+let puntuacion = prompt("Ingresa tu puntuación");
+if (puntuacion >= 100)
+{
+    alert("Felicidades, has ganado");
+}
+else if (puntuacion < 100)
+{
+    alert("intentalo nuevamente para ganar");
+}
+else
+{
+    alert("Error, ingresa una puntuación válida");
+}
 
