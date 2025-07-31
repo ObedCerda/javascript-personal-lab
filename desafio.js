@@ -73,7 +73,7 @@ else
 /*03
 Crea un sistema de puntuación para un juego. Si la puntuación es mayor o igual a 100, muestra "¡Felicidades, has ganado!". 
 En caso contrario, muestra "Intentalo nuevamente para ganar.".
-*/
+
 let puntuacion = prompt("Ingresa tu puntuación");
 if (puntuacion >= 100)
 {
@@ -88,3 +88,13 @@ else
     alert("Error, ingresa una puntuación válida");
 }
 
+*/
+
+/*
+04
+Crea un mensaje que informe al usuario sobre el saldo de su cuenta, 
+utilizando un template string para incluir el valor del saldo.
+*/
+
+let saldoCuenta = 3000;
+alert(`Èl saldo de su cuenta es: $${saldoCuenta}`);
