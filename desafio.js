@@ -33,7 +33,10 @@ if (edadIngresada >= 18){
 */
 
 //Desafio 09 clase 02
-//01
+/*01 Pregunta al usuario qué día de la semana es. 
+Si la respuesta es "Sábado" o "Domingo", muestra "¡Buen fin de semana!". 
+De lo contrario, muestra "¡Buena semana!".
+
 let diaSemana = prompt("Que dia de la semaana es hoy?");
 if (diaSemana.toLowerCase() === "sabado" || diaSemana.toLowerCase() === "domingo")
 {
@@ -43,3 +46,41 @@ else
 {
     alert("Buena Semana");
 }
+*/
+//02
+/*Verifica si un número ingresado por el usuario es positivo o negativo. 
+Muestra una alerta informativa.
+
+*/
+
+numIngresado = prompt("ingrese un numero positivo o negativo");
+if (numIngresado >= 0)
+{
+    alert("numero positivo");
+}
+else if (numIngresado < 0)
+{
+    alert("numero negativo");
+}
+else
+{
+    alert("Error, ingrese un numero valido");
+}
+
+
+/*03
+Crea un sistema de puntuación para un juego. Si la puntuación es mayor o igual a 100, muestra "¡Felicidades, has ganado!". 
+En caso contrario, muestra "Intentalo nuevamente para ganar.".
+let puntuacion = prompt("Ingresa tu puntuación");
+if (puntuacion >= 100)
+{
+    alert("Felicidades, has ganado");
+}
+else
+{
+    alert("intentalo nuevamente para ganar");
+}
+*/
+
+
+
