@@ -1,4 +1,5 @@
 // desafios de logica
+/*
 //Muestra una alerta con el mensaje "¿Bienvenido a nuestro sitio web"
 alert("Bienvenido a nuestro sitio web");
 // Declara una variable llamada nombre y asignale el valor "Lua"
@@ -28,4 +29,17 @@ let edadIngresada = prompt("Ingresa tu edad");
 //  "¡Puedes obtener tu licencia de conducir!"
 if (edadIngresada >= 18){
     alert("Puedes obetener tu licencia de conducir");
+}
+*/
+
+//Desafio 09 clase 02
+//01
+let diaSemana = prompt("Que dia de la semaana es hoy?");
+if (diaSemana.toLowerCase() === "sabado" || diaSemana.toLowerCase() === "domingo")
+{
+    alert("buen fin de semana");
+}
+else
+{
+    alert("Buena Semana");
 }
