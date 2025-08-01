@@ -125,8 +125,9 @@ while (contador <= 10)
 }
 
 Desafio 02 clase 03
-Crea un contador que comience en
-*/
+Crea un contador que comience en 10 y vaya hasta 0 usando un while loop.
+Muestra el valor del contador en cada iteración.
+
 let contador =10;
 while (contador >= 0 )
 {
@@ -134,3 +135,24 @@ while (contador >= 0 )
     contador--;
 }
 
+//Desafio 03 clase 03
+*/
+
+let numeroIngresado = prompt("ingresa un numero");
+let contador = 0;
+while(contador != numeroIngresado && numeroIngresado != null)
+    {
+        console.log(`El contador comienza en: ${numeroIngresado}`);
+        if (numeroIngresado < 0)
+        {
+            numeroIngresado++;
+        }
+        else if (numeroIngresado > 0)
+        {
+            numeroIngresado--;
+        }
+    } 
+if (contador == numeroIngresado)
+{
+    console.log(`El contador ha llegado a ${numeroIngresado}, fin de la cuenta regresiva`);
+}
