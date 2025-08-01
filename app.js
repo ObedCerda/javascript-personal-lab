@@ -1,7 +1,8 @@
 let numeroSecreto = 7;
 let numeroUsuario =0;
 let intentos = 1;
-let palabraVeces = "vez";
+//let palabraVeces = "vez";
+let maxIntentos = 3;
 
 
 
@@ -20,7 +21,7 @@ while(numeroUsuario != numeroSecreto) // Verifica si el usuario no ha acertado y
         //Con concatenacion
         //console.log("Felicidades, has acertado el numero secreto");
         //Asi se hace con Template Strings
-        console.log(`Felicidades, has acertado, tu numero es: ${numeroUsuario}. Tuviste ${intentos} ${palabraVeces}.`);
+        console.log(`Felicidades, has acertado, tu numero es: ${numeroUsuario}. Tus intentos fueron de ${intentos} ${intentos == 1 ? "vez" : "veces"}.`);
     }
 
     else
@@ -32,6 +33,11 @@ while(numeroUsuario != numeroSecreto) // Verifica si el usuario no ha acertado y
         else
         {
             alert("el numero secreto es menor al numero ingresado");
+        }
+        if (intentos == maxIntentos)
+        {
+            alert(`Llegaste al maximo numero de intentos (${maxIntentos} ${intentos == 1 ? "vez" : "veces"})`);
+            break;
         }
         // Aqui incrementamos el contador de intentos
         intentos++;
