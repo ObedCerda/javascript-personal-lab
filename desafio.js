@@ -105,6 +105,21 @@ alert(`Èl saldo de su cuenta es: $${saldoCuenta}`);
 05
 Pide al usuario que ingrese su nombre mediante un prompt. 
 Luego, muestra una alerta de bienvenida usando ese nombre.
-*/
+
  let nombreUsuario =prompt("Ingrese su nombre");
  alert(`Bienvenido! ${nombreUsuario}`);
+*/
+
+//Desafio 07 clase 03
+
+/*
+Crea un contador que comience en 1 y vaya hast 10 usando un while lopp.
+Muestra el valor del contador en cada iteración.
+*/
+
+contador = 1;
+while (contador <= 10)
+{
+    console.log(`El contador es: ${contador}`)
+    contador++;
+}
