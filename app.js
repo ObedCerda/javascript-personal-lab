@@ -1,5 +1,10 @@
 let numeroSecreto = 7;
 let numeroUsuario =0;
+let intentos = 1;
+let palabraVeces = "vez";
+
+
+
 
 while(numeroUsuario != numeroSecreto) // Verifica si el usuario no ha acertado y no ha cancelado
 {
@@ -15,7 +20,7 @@ while(numeroUsuario != numeroSecreto) // Verifica si el usuario no ha acertado y
         //Con concatenacion
         //console.log("Felicidades, has acertado el numero secreto");
         //Asi se hace con Template Strings
-        console.log(`Felicidades, has acertado, tu numero es: ${numeroUsuario}`);
+        console.log(`Felicidades, has acertado, tu numero es: ${numeroUsuario}. Tuviste ${intentos} ${palabraVeces}.`);
     }
 
     else
@@ -28,6 +33,9 @@ while(numeroUsuario != numeroSecreto) // Verifica si el usuario no ha acertado y
         {
             alert("el numero secreto es menor al numero ingresado");
         }
+        // Aqui incrementamos el contador de intentos
+        intentos++;
+        palabraVeces = "veces"
         //Con concatenacion
         //console.log("Con Concatenación \nLo siento, el numero secreto era: " + numeroSecreto);
         //Con template strings
