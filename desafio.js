@@ -1,4 +1,4 @@
-// desafios de logica
+/* desafios de logica
 /*
 //Muestra una alerta con el mensaje "¿Bienvenido a nuestro sitio web"
 alert("Bienvenido a nuestro sitio web");
@@ -108,14 +108,14 @@ Luego, muestra una alerta de bienvenida usando ese nombre.
 
  let nombreUsuario =prompt("Ingrese su nombre");
  alert(`Bienvenido! ${nombreUsuario}`);
-*/
+
 
 //Desafio 07 clase 03
 
-/*
+
 Crea un contador que comience en 1 y vaya hast 10 usando un while lopp.
 Muestra el valor del contador en cada iteración.
-*/
+
 
 contador = 1;
 while (contador <= 10)
@@ -123,3 +123,14 @@ while (contador <= 10)
     console.log(`El contador es: ${contador}`)
     contador++;
 }
+
+Desafio 02 clase 03
+Crea un contador que comience en
+*/
+let contador =10;
+while (contador >= 0 )
+{
+    console.log(`El contador es: ${contador}`);
+    contador--;
+}
+
