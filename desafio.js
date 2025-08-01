@@ -136,7 +136,10 @@ while (contador >= 0 )
 }
 
 //Desafio 03 clase 03
-*/
+Crea un programa de cuenta regresiva. 
+Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' 
+en la consola del navegador.
+
 
 let numeroIngresado = prompt("ingresa un numero");
 let contador = 0;
@@ -155,4 +158,25 @@ while(contador != numeroIngresado && numeroIngresado != null)
 if (contador == numeroIngresado)
 {
     console.log(`El contador ha llegado a ${numeroIngresado}, fin de la cuenta regresiva`);
+}
+
+//Desafio 04 clase 03
+Crea un programa de cuenta progresiva. 
+Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' 
+en la consola del navegador.
+*/
+
+let numeroIngresado = prompt("Ingresa un numero");
+
+if (numeroIngresado === null || numeroIngresado.trim() === "" || isNaN(parseInt(numeroIngresado))) {
+    alert("No ingresaste un número válido. Saliendo del programa.");
+} else {
+    numeroIngresado = parseInt(numeroIngresado) + 1;
+    let contador = 0;
+
+    while (contador != numeroIngresado) 
+    {
+        console.log(`Contador es : ${contador}`);
+        contador ++;
+    }
 }
