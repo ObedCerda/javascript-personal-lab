@@ -1,3 +1,9 @@
-#### Laboratorio para aprendizaje de Js
-- Se crea un laboratorio desde cero para principiantes en js siguiendo las instrucciones del curso de ONE
-- 1ra práctica: se introduce al lenguaje js en un proyecto web sencillo para manipulacion de diferentes temas como variables, condicionales, etc.
+### Personal lab js
+- Introduction class to javascript
+- Basics for js
+- Variables, while loops, conditionals
+
+#### What is inside? 
+- Basic HTML file, just the structure and an image
+- app.js file for a simple guessing number game
+- 
